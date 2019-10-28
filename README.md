@@ -11,7 +11,7 @@
 ## Data Analysis
 | 각 개소별 음용횟수 분포 |
 | :---: |
-| <img src="./image/data_analysis/음용횟수_분포.png" width="200"> |
+| <img src="./image/data_analysis/음용횟수_분포.png" width="300"> |
 
 본 분석을 위해서 총 263개의 경기도권 음수대에 대한 정보를 수집했으며, 해당 음수대의 음용횟수 분포는 위 사진과 같습니다.
 
@@ -25,7 +25,7 @@
 
 | 모델 분석 | 상관계수 분석 |
 | :---: | :---: |
-| <img src="./image/data_analysis/모델_분석.png" width="200"> |    <img src="./image/data_analysis/상관계수.png" width="200">    |
+| <img src="./image/data_analysis/모델_분석.png" width="300"> |    <img src="./image/data_analysis/상관계수.png" width="300">    |
 
 GLM과 푸아송 분포를 이용한 모델을 사용하여 데이터를 분석했습니다. 사용하려는 종속변수(음용 횟수)가 정규분포되어 있지 않기 때문에 해당 모델을 채택했으며, 단위공간(음수대 개소)에서의 사건(음용)이 몇 번 발생할 것인가를 표현하기 위해 푸아송 분포를 사용했습니다.
 
@@ -33,7 +33,7 @@ GLM과 푸아송 분포를 이용한 모델을 사용하여 데이터를 분
 
 | z_score | geomap |
 | :---: | :---: |
-| <img src="./image/data_analysis/z_score.png" width="200"> |    <img src="./image/data_analysis/geomap.png" width="200">    |
+| <img src="./image/data_analysis/z_score.png" width="300"> |    <img src="./image/data_analysis/geomap.png" width="300">    |
 
 위의 분석에서 유의미한 결과를 얻지 못했으니, 이번에는 인구수 별 음용횟수에 대해 z-score 분석을 하여, 가장 취약한 개소를 찾아 현장분석을 할 수 있는 시작 정보를 제공하려합니다.
 
