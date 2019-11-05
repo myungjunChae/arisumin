@@ -38,15 +38,3 @@ GLM과 푸아송 분포를 이용한 모델을 사용하여 데이터를 분
 위의 분석에서 유의미한 결과를 얻지 못했으니, 이번에는 인구수 별 음용횟수에 대해 z-score 분석을 하여, 가장 취약한 개소를 찾아 현장분석을 할 수 있는 시작 정보를 제공하려합니다.
 
 z-score은 좌측 그림과 같으며, 0을 기점으로 낮으면 취약개소임을 의미합니다. 우측 그림은 해당 개소들을 Geomap을 통해 시각화한 자료입니다. 표시된 색이 빨강에 가까울 수록 우선적으로 조취가 필요한 개소임을 나타냅니다. 본 Geomap을 통해서 대부분의 경기도 음수대 개소가 시급히 조치를 해야한다는 것을 알 수 있습니다.
-
-## Member
-| Programmer | Designer |
-| :--------: | :------: |
-|    조서완     |   한수민    |
-|    채명준     |    류혜린     |
-
-## Contact Us
-- 조서완 qowod77@naver.com / [github](https://github.com/whtjdhks3837) / 
-- 채명준 cmj9579@naver.com / [github](https://github.com/myungjunChae) /
-- 한수민 gkstnals17@naver.com /
-- 류혜린 hrrnn@naver.com /
